@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5980824F-2C2A-4904-ACEF-DA2D47EA3663}</ProjectGuid>
+    <ProjectGuid>{36250E48-4A00-4376-9FD2-1911C349238F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Computadora</RootNamespace>
-    <AssemblyName>Computadora</AssemblyName>
+    <RootNamespace>nombres_de_integrantes</RootNamespace>
+    <AssemblyName>nombres de integrantes</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ENTIDADES-\Clscomputadora.cs" />
-    <Compile Include="NEGOCIO\NClscomputadora.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
